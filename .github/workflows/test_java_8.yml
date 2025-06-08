@@ -1,6 +1,7 @@
 name: Test Java 8
 
 on:
+  workflow_dispatch:
   push:
     branches: [ master ]
   pull_request:
